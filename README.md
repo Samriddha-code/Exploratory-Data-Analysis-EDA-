@@ -1,26 +1,28 @@
-Titanic Dataset Exploratory Data Analysis (EDA)
-Overview
-This project performs Exploratory Data Analysis on the Titanic dataset to understand the data using statistics and visualizations. The goal is to identify patterns, trends, anomalies, and feature relationships.
+# Titanic Dataset Exploratory Data Analysis (EDA)
 
-Tools Used
-Python (Pandas, NumPy)
+## Overview
+This project involves exploratory data analysis on the Titanic dataset to understand the data through statistics and visualizations. The purpose is to uncover patterns, trends, and anomalies to aid further machine learning modeling.
 
-Visualization libraries: Matplotlib, Seaborn, Plotly
+## Tools Used
+- Python (Pandas, NumPy)
+- Visualization: Matplotlib, Seaborn, Plotly
 
-Key Steps
-Loaded and summarized the dataset with descriptive statistics.
+## Key Steps
+- Loaded and cleaned the Titanic dataset.
+- Generated summary statistics for key features (Age, Fare, Pclass, etc.).
+- Created histograms and boxplots to visualize distributions and detect outliers.
+- Analyzed relationships using correlation matrix and pairplots.
+- Identified trends such as survival rates across passenger classes and genders.
 
-Visualized data distributions using histograms and boxplots for numeric features like Age and Fare.
+## Included Files
+- `cleaned_titanic.csv` - Preprocessed dataset used in analysis
+- `Data-Cleaning-Preprocessing.ipynb` - Notebook for data cleaning and preprocessing steps
+- `Exploratory-Data-Analysis-EDA.ipynb` - Notebook showing detailed EDA with visualizations
 
-Analyzed relationships between features via pairplots and correlation matrix.
+## How to Run
+Open and run the notebooks in a Jupyter environment to explore the data and visualize patterns.
 
-Identified data patterns such as survival rates by passenger class, gender, and fare.
+---
 
-Noted outliers and drew basic inferences to guide further modeling.
+Feel free to reach out for any questions or clarifications.
 
-Files Included
-cleaned_titanic.csv: Cleaned dataset used for analysis.
-
-Exploratory-Data-Analysis-EDA.ipynb: Notebook with code, visualizations, and insights.
-
-Data-Cleaning-Preprocessing.ipynb: Supporting notebook for data cleaning and preprocessing.
