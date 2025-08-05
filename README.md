@@ -24,5 +24,5 @@ Open and run the notebooks in a Jupyter environment to explore the data and visu
 
 ---
 
-Feel free to reach out for any questions or clarifications.
+
 
